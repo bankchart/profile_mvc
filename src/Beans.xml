@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bean id="dataSource"
+class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+   <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+   <property name="url" value="jdbc:mysql://localhost:3306/myprofile"/>
+   <property name="username" value="root"/>
+   <property name="password" value="crv1990"/>
+</bean>
